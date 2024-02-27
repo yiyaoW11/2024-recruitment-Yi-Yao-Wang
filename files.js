@@ -148,21 +148,6 @@ function findFileChildren(files, currFile) {
     return children;
 }
 
-// Sorts all categories of file array in descending order. If multiple files have same sizes, 
-// sort alphabetically
-// function sortFileCategories(allCategorySizesArr) {
-//     // Sort in descending order of category sizes & sort alphabetically if there are the same sizes
-//     allCategorySizesArr.sort((a, b) => {
-//     // Sort by size in descending order
-//         if (b.categorySize !== a.categorySize) {
-//             return b.categorySize - a.categorySize;
-//         }
-          
-//         // If sizes are the same, sort alphabetically
-//         return a.category.localeCompare(b.category);
-//     });
-// }
-
 // Provided function to check if two arrays are equal
 function arraysEqual(a, b) {
     if (a === b) return true;
